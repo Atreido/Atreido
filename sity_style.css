@@ -1,0 +1,315 @@
+﻿/* CSS Document */
+/* main */
+body#first  {background:#000000;}
+
+#main {width:1024px; margin-left:auto; margin-right:auto;}
+
+#shapka { height:311px;
+ width:1024px; background-image:url('images/shapka.jpg');
+}
+
+div#menu {background-image:url('images/menu_bg.jpg'); 
+background-repeat:repeat-x; 
+height:5px; 
+width:1024px;
+}
+
+#top {
+	background-image:url('images/menu_bg.jpg');
+	height:54px; width:auto;
+	margin-top:-17px;
+}
+
+#menu li {display:block;
+float:left; 
+width:153px; 
+height:42px; 
+margin-top:5px;
+margin-left: 10px;
+ }
+
+#menu li a {
+	 text-decoration:none;
+	 display:block; height:42px; width:153px;
+	  background-image:url('images/menu_blue.png'); 
+	 background-repeat:no-repeat;
+	color:#7EB9FA; font-family:Verdana; 
+	 font-size:15px; padding-top:11px;
+	 text-align:center; font-weight:bold;
+}
+
+#menu li a:hover {
+	display:block; 
+	float:left; 
+	text-align:center;
+	color:#fff;
+	background-image:url('images/menu_red.png'); 
+	width:153px; height:42px;
+}
+
+
+#left  {
+	background-image:url('images/left.png');
+	background-repeat:no-repeat;
+	height:850px;
+	width:295px;
+	padding-top:1px;
+}
+	
+.left_con {
+	width:260px;
+	margin-left:17px;
+	text-align:center;
+	color:#7EB9FA;
+	}
+
+.left_con a {
+	color:#FFFF80;
+}
+
+.left_con a:hover {
+	color:#7EB9FA;
+}
+
+
+#isq {
+	background-image:url('images/isq.png');
+	width:15px;
+	height:13px;
+	margin-top:20px;
+	margin-left:30px;
+}
+#mail{
+	background-image:url('images/mail.png');
+	width:15px;
+	height:13px;
+	margin-top:20px;
+	margin-left:30px;
+}
+	
+span.svaz{
+margin-left:25px;
+	color:#33CC33;
+	font-size:21px;
+}
+
+	
+#cont  { margin-left: 338px;
+	background-image:url('images/content.png');
+	height:850px;
+	width:687px;
+	position:absolute;
+	top:373px;
+}
+	
+.title {
+	background-image:url('images/zag.png');
+	width:269px;
+	height:38px;
+	margin-left:10px;
+	margin-top:28px;
+}
+	
+.title span { display:block;
+text-align:center;
+	color:silver;
+	font-size:20px;
+	padding-top:6px;
+	}
+	
+	center { margin-top:-40px; 
+	margin-bottom:-50px;}
+	
+	iframe { border:none; width:687px; height:780px; padding-top:25px;}
+	
+	div#futer {
+	background-image:url('images/futur.jpg'); 
+	height:54px;
+}
+
+div#menu_alt {
+	text-align:center;
+	font-family:Verdana;
+	margin-top:5px;
+
+	}
+	
+div#menu_alt a {
+padding-top:5px;
+	color:white;
+}
+
+div#menu_alt a:hover {
+padding-top:5px;
+	color:#FFFF80;
+}
+
+div#rec { 
+	text-align:center;
+	color:#999999;
+	font-size:32px;
+	font-family:monotype corsiva;
+	}
+	
+/* news */
+
+ .zag {
+	font-size:24px;
+	color:#FFFF80;
+	margin-left:30px;	
+}
+
+.raz {
+	background-image:url('images/razdel.png'); 
+	width:630px;
+	height:30px;
+	margin-top:15px;
+	margin-left:5px;
+}
+
+.img  {
+	margin-left:30px;
+	margin-top:3px;
+}
+
+.news {
+	width:600px;
+	color:silver;
+	margin-left:25px;
+	font-size:16px;
+	margin-top:15px;
+}
+
+.podrob {
+	color:#FFFF80;
+	margin-left:30px;
+}
+
+ol {
+	color:silver;
+}
+
+#main_news {
+	width:620px;
+	color:silver;
+	margin-left:20px;
+	font-size:18px;
+	margin-top:105px;
+	text-align:center;
+	font-weight:bold;
+
+}
+
+/*tracks*/
+#zagolovok {
+	padding-top:20px;
+	text-align:center;
+	font-size:21px;
+	color:silver;
+}
+
+.track {
+	padding-left:40px;
+	color:#FFFF80;
+	font-size:16px;
+	}
+	
+a.track:hover {
+	color:#7EB9FA;
+}
+
+/*afisha*/
+ h4#info {
+	margin:25px 10px 10px 10px;
+	
+	text-align:center;
+	color:silver;
+}
+
+#all {
+	color:#999999;	
+	margin-left:80px;
+	font-family:Verdana;
+	font-size:14px;
+}
+
+p.date {
+	font-weight:bold;
+	color:silver;
+	text-align:right;
+	margin-right:10px;}
+	
+.club {
+	color:#FFFF80;
+	font-weight:bold;
+	margin-left:-40px;}
+
+.enter {
+	font-weight:bolder;
+	color:#7EB9FA;}
+
+/*galery*/
+table {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+}
+
+td {
+	padding:6px 3px 10px 3px;
+}
+
+a.galery{
+	text-decoration:none;
+	text-align:center;
+	color:silver;
+	font-weight:bold;
+	border-style:none;
+
+}
+
+
+/*clubs*/
+.raion {
+padding-left:25px;
+	font-size:18px;
+	color:#7EB9FA;
+	margin-bottom:15px;
+	margin-top:15px;
+	font-weight:bold;
+	}
+	
+	
+.adr {
+margin-left:45px;
+font-size:16px;
+color:silver;
+}
+
+.club_name{font-weight:bold;
+color:#FFFF80;
+}
+
+a.club_name:hover {
+	color:#7EB9FA;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
